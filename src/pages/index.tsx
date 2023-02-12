@@ -46,7 +46,7 @@ const Home: NextPage = () => {
               href="/nicolas"
               target = "_blank"
               >
-              <h3 className="text-2xl font-bold"> <p>"Nicolas&apos;s Page"</p> </h3>
+              <h3 className="text-2xl font-bold"> <p>Nicolas&apos;s Page</p> </h3>
             </Link>
           </div>
           <p className="text-2xl text-white">
