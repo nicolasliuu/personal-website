@@ -12,7 +12,7 @@ const Nicolas: NextPage = () => {
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#fafa6e] to-[#2a4858]">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
         <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-            Hi, I'm <span className="text-[hsl(255,100%,70%)]">Nicolas</span>
+            Hi, I am <span className="text-[hsl(255,100%,70%)]">Nicolas</span>
           </h1>
         <Link href="/">
             <p className="text-blue-600 text-5xl font-bold">Go to homepage</p>
