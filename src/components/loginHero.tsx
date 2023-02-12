@@ -40,6 +40,6 @@ function LoginHero() {
       </main>
     </>
   );
-};
+}
 
 export default LoginHero;

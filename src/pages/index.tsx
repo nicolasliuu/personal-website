@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-            <p>Hi, I'm <span className="text-[hsl(280,100%,70%)]">Nicolas</span></p>
+            <p>Hi, I&apos;m <span className="text-[hsl(280,100%,70%)]">Nicolas</span></p>
           </h1>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
             <Link
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
               href="/nicolas"
               target = "_blank"
               >
-              <h3 className="text-2xl font-bold">Nicolas's Page →</h3>
+              <h3 className="text-2xl font-bold"> <p>"Nicolas&apos;s Page"</p> </h3>
             </Link>
           </div>
           <p className="text-2xl text-white">
