@@ -30,3 +30,30 @@ body {
     height: 96px;
     margin: -48px 0px 0px -48px;
 }
+
+:root {
+    --background-light: #FAF9F6;
+    --text-light: #010101;
+    --background-dark: #010101;
+    --text-dark: #FAF9F6;
+  }
+  
+  body[data-theme='light'] {
+    background-color: var(--background-light);
+    color: var(--text-light);
+  }
+  
+  body[data-theme='dark'] {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+  }
+
+  nav a.active {
+    text-decoration: underline;
+  }
+  
+  
+
+  main {
+    transition: transform 0.3s ease;
+  }

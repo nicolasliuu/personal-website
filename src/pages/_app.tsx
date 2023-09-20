@@ -4,8 +4,14 @@ import { api } from "../utils/api";
 
 import "../styles/globals.css";
 
+import { ThemeProvider } from "../contexts/ThemeContext";
+
 const MyApp: AppType = ({ Component, pageProps }) => {
-  return <Component {...pageProps} />;
+  return (
+    <ThemeProvider>
+      <Component {...pageProps}/>
+    </ThemeProvider>
+   )
 };
 
 export default api.withTRPC(MyApp);
