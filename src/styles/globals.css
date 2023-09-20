@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/**
+ * Simple Radial Mouse Cursor
+ */
+ #mouse-circle {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    margin: -32px 0px 0px -32px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    pointer-events: none !important;
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0);
+    background-color: white;
+    mix-blend-mode: difference;
+    transition: width 0.3s, height 0.3s, margin 0.3s;
+
+}
+
+body {
+    cursor: none;
+}
+
+.hoverable:hover ~ #mouse-circle {
+    width: 96px;
+    height: 96px;
+    margin: -48px 0px 0px -48px;
+}
