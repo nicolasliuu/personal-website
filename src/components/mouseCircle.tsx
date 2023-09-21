@@ -30,8 +30,8 @@ const MouseCircle = () => {
 
     const handleMouseEnter = () => {
       if (mouseCircle) {
-        mouseCircle.style.width = '96px';
-        mouseCircle.style.height = '96px';
+        mouseCircle.style.width = '108px';
+        mouseCircle.style.height = '108px';
         mouseCircle.style.margin = '-48px 0px 0px -48px';
       }
     };
